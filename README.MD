@@ -21,17 +21,17 @@ The `<img>` tag inserts an image into an HTML page. It is a **self-closing (void
 <img src="media/img/image001.png" alt="LABFORWEB Logo" title="LABFORWEB" width="400px" />
 ```
 **Important Attributes:**
-| Attribute | Description | Example / Values |
-|------------|-------------|------------------|
-| `src` | Path or URL of the image | `"image.jpg"` |
-| `alt` | Alternate text for accessibility and fallback | `"A running dog"` |
-| `title` | Tooltip displayed on hover | `"Company Logo"` |
-| `width` / `height` | Image dimensions (prefer CSS) | `"400px"`, `"50%"` |
-| `loading` | Controls image loading behavior | `lazy`, `eager` |
-| `srcset` | Responsive images for different displays | `"image-1x.jpg 1x, image-2x.jpg 2x"` |
-| `sizes` | Image sizes for various layouts | `"(max-width:600px) 100vw, 50vw"` |
-| `usemap` | Links image to an image map | `"#map1"` |
-| `longdesc` | URL for a detailed description | `"description.html"` |
+| Attribute             | Description                                       | Example / Values                      |
+|-----------------------|---------------------------------------------------|---------------------------------------|
+| `src`                 | Path or URL of the image                          | `"image.jpg"`                         |
+| `alt`                 | Alternate text for accessibility and fallback     | `"A running dog"`                     |
+| `title`               | Tooltip displayed on hover                        | `"Company Logo"`                      |
+| `width` / `height`    | Image dimensions (prefer CSS)                     | `"400px"`, `"50%"`                    |
+| `loading`             | Controls image loading behavior                   | `lazy`, `eager`                       |
+| `srcset`              | Responsive images for different displays          | `"image-1x.jpg 1x, image-2x.jpg 2x"`  |
+| `sizes`               | Image sizes for various layouts                   | `"(max-width:600px) 100vw, 50vw"`     |
+| `usemap`              | Links image to an image map                       | `"#map1"`                             |
+| `longdesc`            | URL for a detailed description                    | `"description.html"`                  |
 
 **Accessibility Attributes (ARIA):**
 - `aria-label`, `aria-describedby`, `aria-labelledby`
