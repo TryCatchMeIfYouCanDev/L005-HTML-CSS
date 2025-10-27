@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marco Fuchs">
+    <meta name="description" content="Images tags: &lt;img&gt;, &lt;figure&gt;, &lt;picture&gt; and theirs attributes">
+    <meta name="keywords" content="HTML5 images and media tags">    
+    <title>Image Tags</title>
+    <link rel="icon" href="/assets/medias/icons/favicon.ico" type="images/x-icon">
+    <link rel="stylesheet" href="/assets/style/main.css" type="text/css" media="all">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            background-color: AntiqueWhite;
+        }
+
+        article {
+            background-color: PowderBlue;
+        }
+
+        aside {
+            background-color: Plum;
+        }
+
+        nav ul li a {
+            color: #00f;
+            background-color: #ff0;
+            text-decoration: none !important; /*Win against the inline because is marked !important*/
+        }
+
+        footer a {
+            color: #f00;
+            font-style: italic;
+        }
+
+        code {
+            color: DodgerBlue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="top">Home Page</h1>
+        <h6>Pubilshed on the 27 October 2025</h6>
+        <h2>The <code>&lt;img&gt;</code> HTML tag</h2>
+        <img src="/assets/medias/img/image001.png" alt="LABFORWEB's Logo" title="LABFORWEB" width="400px">
+    </header>
+    <nav>
+        <ul>
+            <li>
+                Mailto: <a href="mailto:hello@labforweb.com,info@labforweb.com?cc=test@labforweb.com&amp;bcc=ciao@labforweb.com&amp;subject=I%20tell%20you%20something%20you%20dont%20know&amp;body=Bravo!%20You%20succeed%20your%20exame" title="Send us an email">hello@labforweb.com</a>
+            </li>
+            <li>
+                Tel: <a href="tel:+390658205135" title="Call our Office">06.58 20 51 35</a>
+            </li>
+            <li>
+                SMS: <a href="sms:+390658205135" title="Send us a message">06.58 20 51 35</a>
+            </li>
+            <li>
+                MMS: <a href="mms:+390658205135" title="Send us your video">06.58 20 51 35</a>
+            </li>
+            <li>
+                WhatsApp: <a href="https://wa.me/+390658205135" title="Contact us on WhatsApp" style="color:red; background-color: yellow; text-decoration: underline;">06.58 20 51 35</a>
+            </li>
+            <li>
+                Skype: <a href="skype:live:john.giannasca?call" title="Contact us on Skype">06.58 20 51 35</a>
+            </li>
+            <li>
+                Download: <a href="https://labforweb-vod.b-cdn.net/Altro/carta-qualita-servizi-labforweb.pdf" target="_blank" rel="noopener noreferrer">Service Quality Charter</a>
+            </li>
+            <li>
+                Facebook: <a href="https://www.facebook.com/labforweb" target="_blank" rel="noopener noreferrer">Labforweb Rome</a>
+            </li>
+            <li>
+                Youtube: <a href="https://www.youtube.com/watch?v=mz2X2skpGxk" target="_blank" rel="noopener noreferrer">Become Web Developer</a>
+            </li>
+            <li>
+                Maps: <a href="https://maps.app.goo.gl/EBiLAfCPo8ZFY6bZ6" target="_blank" rel="noopener noreferrer">Via Francesco Saverio Solari, 16, 00149 Roma RM, Italy</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section>
+            <h2>The <code>&lt;figure&gt;</code> HTML tag</h2>
+            <h3>I&apos;m a HTML section tag</h3>
+            <figure>
+                <img src="/assets/medias/img/immage002.jpg" alt="&quot;La Piazza&quot;; - Square" title="&quot;La Piazza&quot; - Square">
+                <figcaption>&quot;La Piazza&quot; - Square</figcaption>
+            </figure>
+        </section>
+        <hr>
+        <article>
+            <h2>The <code>&lt;picture&gt;</code> HTML tag</h2>
+            <h3>I&apos;m a HTML article tag</h3>
+            <picture>
+                <source media="(min-width: 768px)" srcset="/assets/medias/img/003.png" title="Large" >
+                <source media="(min-width: 480px)" srcset="/assets/medias/img/002.png" title="Medium">
+                <source srcset="/assets/medias/img/001.png" title="Small">
+                <img src="/assets/medias/img/003.png" alt="Default Large" title="Default Large"> <!-- Fallback, based on Can I Use, <picture> has about 97% usage support -->
+            </picture>
+        </article>
+        <hr>
+        <aside>
+            <h2>The <code>&lt;map&gt;</code></code> HTML tag</h2>
+            <h3>I&apos;m a HTML aside tag</h3>
+            <img src="/assets/medias/img/plakat.png" alt="Bud Spencer &amp; Terence Hill in Odds and Evens" title="Bud Spencer &amp; Terence Hill in Odds and Evens" usemap="#banner">
+            <map name="banner">
+                <area shape="rect" coords="0,0,149,548" href="https://en.wikipedia.org/wiki/Terence_Hill" alt="Terence Hill" title="Terence Hill" target="_blank">
+                <area shape="rect" coords="299,0,149,548" href="https://en.wikipedia.org/wiki/Bud_Spencer" alt="Bud Spencer" title="Bud Spencer" target="_blank">
+            </map>
+        </aside>
+    </main>
+    <hr>
+    <footer>
+        <p><a href="#top" title="Top of the Page">Top of the Page</a></p>
+    </footer>
+</body>
+</html>

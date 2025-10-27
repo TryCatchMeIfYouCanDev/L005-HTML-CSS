@@ -1,5 +1,5 @@
 
-# Images and Introduction to CSS #
+# FIFTH LESSON - Images and Introduction to CSS #
 
 ## 1. Graphic Formats ##
 
